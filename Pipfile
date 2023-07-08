@@ -5,11 +5,13 @@ name = "pypi"
 
 [packages]
 langchain = "*"
+streamlit = "*"
 black = "*"
 pinecone-client = "*"
 python-dotenv = "*"
 openai = "*"
 tiktoken = "*"
+docarray = "*"
 
 [dev-packages]
 
