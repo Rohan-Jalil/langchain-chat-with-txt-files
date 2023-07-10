@@ -8,6 +8,7 @@ Make a copy of `.env.example` file and put your OpenAI API key in the appropriat
 Make sure you have `python3.11` installed in your system 🐍
 - You can download and install Python 3.11 from the official Python website: [https://www.python.org/downloads](https://www.python.org/downloads)
 
+## Setup 💻
 Run the following command to install the `virtualenv` package:
 ```
 python3.11 -m pip install virtualenv
@@ -33,6 +34,8 @@ Install packages from `Pipfile` using:
 pipenv install
 ```
 
+## Running the app 🌐
+
 Once the packages are installed, run the following command to start the application:
 ```
 streamlit run app.py
@@ -46,3 +49,10 @@ Browse and select a `.txt` file with the source information, and enter any query
 Click on the submit button to generate and see a response for your query. 👍
 
 Make sure to properly configure your `.env` file with the API key and other necessary environment variables before running the application.
+
+## Demo link 🔗
+https://langchain-chat-with-txt-files.streamlit.app/
+
+## Also check these out 👀
+- [Langchain chat with CSV file](https://github.com/Rohan-Jalil/langchain-chat-with-csv-files)
+- [Langchain chat with PDF file](https://github.com/Rohan-Jalil/langchain-chat-with-pdf-files)
